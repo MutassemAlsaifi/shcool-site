@@ -1,0 +1,66 @@
+/* start footer  */
+footer {
+    padding: 5rem 0;
+    background-color: var(--extralightgreen);
+}
+
+footer .content {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    gap: 2rem;
+    color: var(--semiblack);
+    padding: 1rem;
+}
+
+footer .content h1 {
+    font-family: "Cairo-Bold";
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+footer .content p {
+    font-family: "Cairo-Regular";
+
+}
+
+footer .icons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+footer .content a {
+    padding: 0.5rem;
+    border: var(--semiblack) solid 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .content i {
+    font-size: 1.5rem;
+}
+
+@media (min-width:992px) {
+    footer .content {
+        width: 50%;
+
+    }
+
+}
+
+@media (max-width:992px) {
+    footer .content h1 {
+        font-size: 1.8rem;
+
+    }
+
+    footer .content i {
+        font-size: 1rem;
+    }
+}
+
+/* end footer  */

@@ -1,0 +1,71 @@
+/* start main section */
+main.mainsec {
+    background-image: url(../img/main/main.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;
+
+}
+
+main.mainsec .container {
+    width: 85%;
+    height: 88vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+main.mainsec .container .main-text {
+    width: 400px;
+    color: var(--white);
+    display: grid;
+    gap: 2rem;
+    justify-items: start;
+
+}
+
+main.mainsec .container .main-text h1 {
+    font-family: "Cairo-Bold";
+    font-size: 3rem;
+
+}
+
+main.mainsec .container .main-text p {
+    font-family: "Cairo-Regular";
+    font-size: 1.3rem;
+}
+
+main.mainsec .container .main-text a {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-family: "Cairo-Bold";
+    padding: 0.5rem 3rem;
+    border-radius: 1.5rem;
+    color: var(--semiblack);
+    background-color: var(--gold);
+    border: 2px solid var(--gold);
+    transition: 1s;
+}
+
+main.mainsec .container .main-text a:hover {
+    background: transparent;
+    color: var(--white);
+}
+
+@media (max-width:576px) {
+    main.mainsec .container .main-text h1 {
+        font-size: 2rem;
+    }
+
+    main.mainsec .container .main-text p {
+        font-size: 1rem;
+    }
+
+    main.mainsec .container .main-text a {
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+
+    }
+}
+
+/* end main section */

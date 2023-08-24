@@ -1,0 +1,122 @@
+/* start header style */
+header.main-header {
+    background-color: var(--lightgreen);
+    min-height: 12vh;
+    position: fixed;
+    width: 100%;
+    z-index: 99999999;
+}
+
+header.main-header .container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.main-header .container .rightcontent {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header.main-header .container .rightcontent .text-content {
+    display: grid;
+    gap: 0.5rem;
+    font-family: "Cairo-SemiBold";
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+header.main-header .container .rightcontent .text-content h4 {
+    text-align: center;
+    font-family: "Cairo-Light";
+    font-size: 1rem;
+    color: var(--lightblack);
+}
+
+header.main-header .container nav {
+    display: flex;
+    align-items: center;
+}
+
+header.main-header .container nav a {
+    color: var(--white);
+    font-family: "Cairo-Regular";
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    transition: 1s ease-in-out;
+}
+
+
+header.main-header .container nav a.active {
+    color: var(--semiblack);
+    background-color: var(--gold);
+    border-radius: 1.5rem;
+}
+
+
+header.main-header .container nav a:hover {
+    color: var(--semiblack);
+    background-color: var(--gold);
+}
+
+header.main-header .container .fa-bars {
+    font-size: 1.5rem;
+    color: var(--gold);
+    display: none;
+}
+
+/* end header style */
+/* start media for header  */
+@media (max-width:992px) {
+    header.main-header .container .fa-bars {
+        display: block;
+    }
+    header.main-header .container nav{
+        display: grid !important;
+        gap: 20rem;
+        padding: 3rem;
+        width: 100%;
+        position: absolute;
+        top: 15vh;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.768);
+        backdrop-filter: blur(30px);
+            color: var(--main_color);
+        gap: 0;
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: 1s;
+        z-index: 99;
+      }
+      header.main-header .container nav.active_nav{
+        height: 50vh;
+        opacity: 1;
+    
+      }
+}
+
+@media (max-width:576px) {
+
+    header.main-header .container nav {
+        display: none;
+    }
+
+    header.main-header .container .fa-bars {
+        display: block;
+    }
+
+    header.main-header .container .rightcontent .text-content {
+        font-size: 1rem;
+    }
+
+    header.main-header .container .rightcontent .text-content h4 {
+        font-size: 0.7rem;
+    }
+}
+
+/* end media for header  */

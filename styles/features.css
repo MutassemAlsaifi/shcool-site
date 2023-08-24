@@ -1,0 +1,51 @@
+/* satrt features section  */
+section.features {
+    padding: 5rem 0;
+}
+
+section.features .container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.features .container .box {
+    background-color: antiquewhite;
+    width: 300px;
+    padding: 3rem 2rem;
+    color: var(--white);
+    flex-grow: 1;
+}
+
+section.features .container .box h2 {
+    font-size: 1.7rem;
+    font-family: "Cairo-SemiBold";
+    padding: 1rem 0;
+
+}
+
+section.features .container .box p {
+    font-size: 0.9rem;
+    font-family: "Cairo-Regular";
+    line-height: 2rem;
+
+}
+
+section.features .container .box1 {
+    background-color: var(--boldgreen);
+}
+
+section.features .container .box2 {
+    background-color: var(--lightgreen);
+}
+
+section.features .container .box3 {
+    background-color: var(--orange);
+}
+
+section.features .container .box4 {
+    background-color: var(--boldgold);
+}
+
+/* end features section  */

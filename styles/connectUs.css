@@ -1,0 +1,101 @@
+/* satrt connectus section  */
+section.Connectus {
+    background-color: var(--lightblue);
+    padding: 7rem 0;
+}
+
+section.Connectus .container {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+section.Connectus .container img {
+    width: 100%;
+    height: 100%;
+}
+
+section.Connectus .container .box {
+    background-color: var(--white);
+    max-height: 370px;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.285);
+    font-family: "Cairo-SemiBold";
+
+}
+
+section.Connectus .container .address {
+    display: grid;
+    color: var(--lightblack);
+
+}
+
+section.Connectus .container .address h3 {
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+section.Connectus .container .address .location {
+    display: flex;
+    gap: 1rem;
+}
+
+
+section.Connectus .container .time h3 {
+    color: var(--lightblack);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+section.Connectus .container .time .dates {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: "Cairo-Bold";
+    color: var(--lightblack);
+
+}
+
+section.Connectus .container .time p {
+    color: var(--lightblack);
+    text-align: center;
+}
+
+section.Connectus .container .time .day {
+    margin-top: 2rem;
+    width: 130px;
+    height: 35px;
+    border-radius: 1rem;
+    background-color: var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (min-width:786px) and (max-width:1200px) {
+    section.Connectus .container {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    section.Connectus .container .time {
+        grid-column: 1 / 3;
+    }
+}
+
+@media (max-width:786px) {
+    section.Connectus .container {
+        grid-template-columns: 1fr;
+    }
+
+    section.Connectus .container .box {
+        height: 370px;
+    }
+
+}
+
+/* end connectus section  */

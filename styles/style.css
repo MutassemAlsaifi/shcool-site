@@ -1,0 +1,30 @@
+@import url(general.css);
+@import url(header.css);
+@import url(main.css);
+@import url(features.css);
+@import url(news.css);
+@import url(goals.css);
+@import url(parents.css);
+@import url(connectUs.css);
+@import url(map.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: "Cairo-Bold";
+    src: url(../fonts/Cairo-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Cairo-Regular";
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Cairo-SemiBold";
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Cairo-Light";
+    src: url(../fonts/Cairo-Light.ttf);
+}

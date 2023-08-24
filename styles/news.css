@@ -1,0 +1,97 @@
+/* start news section  */
+section.news {
+    padding: 5rem 0;
+    background-color: var(--lighewhihte);
+}
+
+section.news .headertext {
+    text-align: center;
+    color: var(--semiblack);
+    font-size: 1.2rem;
+    font-family: "Cairo-Bold";
+
+}
+
+section.news .headertext h3 {
+    font-size: 0.8rem;
+    font-family: "Cairo-Regular";
+    color: var(--lightgreen);
+
+}
+
+section.news .container {
+    padding: 3rem 0;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section.news .container .box img {
+    width: 100%;
+}
+
+section.news .container .box {
+    width: 400px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.174);
+    position: relative;
+    flex-grow: 1;
+}
+
+section.news .container .box .textcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.7rem;
+    padding: 1rem;
+    font-family: "Cairo-Regular";
+    color: var(--lightblack);
+
+}
+
+section.news .container .box .textcontent h3 {
+    align-self: center;
+    font-size: 1.3rem;
+
+}
+
+section.news .container .box .textcontent p {
+    font-size: 1.1rem;
+}
+
+section.news .container .box .textcontent h6 {
+
+    font-size: 1rem;
+
+}
+
+section.news .container .box .textcontent a {
+    font-size: 1.1rem;
+    padding: 0.5rem 3rem;
+    border-radius: 1.5rem;
+    color: var(--semiblack);
+    background-color: var(--gold);
+    border: 2px solid var(--gold);
+    transition: 1s;
+}
+
+section.news .container .box .textcontent a:hover {
+    background: transparent;
+    color: var(--semiblack);
+}
+
+section.news .container .box .textcontent span {
+    font-family: "Cairo-Regular";
+    font-size: 1rem;
+    color: var(--semiblack);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: var(--gold);
+    padding: 0.3rem 1.5rem;
+    border-radius: 5px;
+}
+
+/* end news section  */

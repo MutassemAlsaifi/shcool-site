@@ -1,0 +1,67 @@
+/* start parents section  */
+section.parents {
+    padding: 5rem 0;
+}
+
+section.parents .container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding-top: 5rem;
+}
+
+section.parents .headertext {
+    text-align: center;
+    color: var(--semiblack);
+    font-size: 1rem;
+    font-family: "Cairo-Bold";
+}
+
+section.parents .headertext h3 {
+    font-size: 0.8rem;
+    font-family: "Cairo-Regular";
+    color: var(--lightgreen);
+}
+
+section.parents .box {
+    font-family: "Cairo-Regular";
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+}
+
+section.parents .box .maintext {
+    background-color: var(--lighewhihte);
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+
+}
+
+section.parents .box .maintext .info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1.5rem;
+    right: -20px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid var(--lighewhihte);
+    transform: rotate(90deg);
+}
+
+@media (max-width:992px) {
+    section.parents .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* end parents section  */

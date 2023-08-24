@@ -1,0 +1,91 @@
+/* satrt goals section  */
+section.goals {
+    background-image: linear-gradient(rgb(89, 198, 188, 70%), rgb(89, 198, 188, 70%)), url(../img/goals/goalpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+section.goals .headertext {
+    text-align: center;
+    padding: 3rem 0;
+    color: var(--white);
+}
+
+section.goals h2 {
+    font-size: 1.2rem;
+    font-family: "Cairo-Bold";
+}
+
+section.goals h3 {
+    font-size: 0.8rem;
+    font-family: "Cairo-Regular";
+}
+
+section.goals .container {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    justify-items: center;
+    height: 100%;
+    gap: 2rem;
+}
+
+section.goals .container .box {
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+    align-items: center
+}
+
+section.goals .container .box .content {
+    display: grid;
+}
+
+section.goals .container .box .content :first-child {
+    font-family: "Cairo-Regular";
+    font-size: 3rem;
+    color: var(--white);
+
+}
+
+section.goals .container .box .content:last-child {
+    font-family: "Cairo-Regular";
+    font-size: 1.5rem;
+    color: var(--semiblack);
+
+
+}
+
+
+@media (min-width:576px) and (max-width:1300px) {
+    section.goals .container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+}
+
+@media (max-width:576px) {
+    section.goals .container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    section.goals .container .box .content :first-child {
+        font-size: 2rem;
+
+    }
+
+    section.goals .container .box .content:last-child {
+        font-size: 1rem;
+    }
+}
+
+
+/* end goals section  */

@@ -1,0 +1,67 @@
+/* satrt map section */
+section.map {
+    /* padding: 2rem 0; */
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../img/map/map.svg);
+    min-height: 50vh;
+    position: relative;
+}
+
+form {
+    padding: 1rem;
+    background-color: var(--lightgreen);
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+section.map input {
+    height: 35px;
+    width: 300px;
+    border: transparent;
+    outline: transparent;
+    padding: 0 1rem 0 0;
+}
+
+section.map button {
+    width: 50px;
+    height: 35px;
+    background-color: var(--semiblack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    outline: transparent;
+    cursor: pointer;
+}
+
+.innertriangle {
+    width: 20px;
+    height: 20px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid var(--white);
+    transform: rotate(90deg);
+}
+
+
+
+section.map .outertriangle {
+    width: 20px;
+    height: 20px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid var(--lightgreen);
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateY(52px) rotate(180deg);
+    ;
+}
+
+
+/* end map section */
