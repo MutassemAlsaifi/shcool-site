@@ -5,7 +5,6 @@ Front-End School Website
 <h2>Table of Contents</h2>
 Features
 Demo
-Installation
 Usage
 Technologies Used
 Contributing
@@ -18,10 +17,6 @@ Events: A calendar or listing of upcoming school events and activities.
 Contact: Contact details and a form for reaching out to the school.
 <h2>Demo</h2>
 Experience the live demo of the Front-End School Website here.
-<h2>Installation</h2>
-Clone the repository: git clone   https://mutassemalsaifi.github.io/shcool-site/
-Navigate to the project directory: cd front-end-school-website
-Open the index.html file in your preferred web browser.
 <h2>Usage</h2>
 Navigate through the website using the navigation bar or interactive sections on the homepage.
 Learn about the school's programs by visiting the "Programs" page.
